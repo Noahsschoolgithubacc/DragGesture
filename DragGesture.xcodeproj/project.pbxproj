@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7289D3802CA1EC7700BFAE66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7289D3672CA1EC7600BFAE66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7289D36E2CA1EC7600BFAE66;
+			remoteInfo = DragGesture;
+		};
+		7289D38A2CA1EC7700BFAE66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7289D3672CA1EC7600BFAE66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7289D36E2CA1EC7600BFAE66;
+			remoteInfo = DragGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7289D36F2CA1EC7600BFAE66 /* DragGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7289D37F2CA1EC7700BFAE66 /* DragGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7289D3892CA1EC7700BFAE66 /* DragGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7289D3712CA1EC7600BFAE66 /* DragGesture */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DragGesture;
+			sourceTree = "<group>";
+		};
+		7289D3822CA1EC7700BFAE66 /* DragGestureTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DragGestureTests;
+			sourceTree = "<group>";
+		};
+		7289D38C2CA1EC7700BFAE66 /* DragGestureUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DragGestureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7289D36C2CA1EC7600BFAE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7289D37C2CA1EC7700BFAE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7289D3862CA1EC7700BFAE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7289D3662CA1EC7600BFAE66 = {
+			isa = PBXGroup;
+			children = (
+				7289D3712CA1EC7600BFAE66 /* DragGesture */,
+				7289D3822CA1EC7700BFAE66 /* DragGestureTests */,
+				7289D38C2CA1EC7700BFAE66 /* DragGestureUITests */,
+				7289D3702CA1EC7600BFAE66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7289D3702CA1EC7600BFAE66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7289D36F2CA1EC7600BFAE66 /* DragGesture.app */,
+				7289D37F2CA1EC7700BFAE66 /* DragGestureTests.xctest */,
+				7289D3892CA1EC7700BFAE66 /* DragGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7289D36E2CA1EC7600BFAE66 /* DragGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7289D3932CA1EC7700BFAE66 /* Build configuration list for PBXNativeTarget "DragGesture" */;
+			buildPhases = (
+				7289D36B2CA1EC7600BFAE66 /* Sources */,
+				7289D36C2CA1EC7600BFAE66 /* Frameworks */,
+				7289D36D2CA1EC7600BFAE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7289D3712CA1EC7600BFAE66 /* DragGesture */,
+			);
+			name = DragGesture;
+			packageProductDependencies = (
+			);
+			productName = DragGesture;
+			productReference = 7289D36F2CA1EC7600BFAE66 /* DragGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7289D37E2CA1EC7700BFAE66 /* DragGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7289D3962CA1EC7700BFAE66 /* Build configuration list for PBXNativeTarget "DragGestureTests" */;
+			buildPhases = (
+				7289D37B2CA1EC7700BFAE66 /* Sources */,
+				7289D37C2CA1EC7700BFAE66 /* Frameworks */,
+				7289D37D2CA1EC7700BFAE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7289D3812CA1EC7700BFAE66 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7289D3822CA1EC7700BFAE66 /* DragGestureTests */,
+			);
+			name = DragGestureTests;
+			packageProductDependencies = (
+			);
+			productName = DragGestureTests;
+			productReference = 7289D37F2CA1EC7700BFAE66 /* DragGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7289D3882CA1EC7700BFAE66 /* DragGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7289D3992CA1EC7700BFAE66 /* Build configuration list for PBXNativeTarget "DragGestureUITests" */;
+			buildPhases = (
+				7289D3852CA1EC7700BFAE66 /* Sources */,
+				7289D3862CA1EC7700BFAE66 /* Frameworks */,
+				7289D3872CA1EC7700BFAE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7289D38B2CA1EC7700BFAE66 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7289D38C2CA1EC7700BFAE66 /* DragGestureUITests */,
+			);
+			name = DragGestureUITests;
+			packageProductDependencies = (
+			);
+			productName = DragGestureUITests;
+			productReference = 7289D3892CA1EC7700BFAE66 /* DragGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7289D3672CA1EC7600BFAE66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					7289D36E2CA1EC7600BFAE66 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					7289D37E2CA1EC7700BFAE66 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 7289D36E2CA1EC7600BFAE66;
+					};
+					7289D3882CA1EC7700BFAE66 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 7289D36E2CA1EC7600BFAE66;
+					};
+				};
+			};
+			buildConfigurationList = 7289D36A2CA1EC7600BFAE66 /* Build configuration list for PBXProject "DragGesture" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7289D3662CA1EC7600BFAE66;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7289D3702CA1EC7600BFAE66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7289D36E2CA1EC7600BFAE66 /* DragGesture */,
+				7289D37E2CA1EC7700BFAE66 /* DragGestureTests */,
+				7289D3882CA1EC7700BFAE66 /* DragGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7289D36D2CA1EC7600BFAE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7289D37D2CA1EC7700BFAE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7289D3872CA1EC7700BFAE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7289D36B2CA1EC7600BFAE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7289D37B2CA1EC7700BFAE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7289D3852CA1EC7700BFAE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7289D3812CA1EC7700BFAE66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7289D36E2CA1EC7600BFAE66 /* DragGesture */;
+			targetProxy = 7289D3802CA1EC7700BFAE66 /* PBXContainerItemProxy */;
+		};
+		7289D38B2CA1EC7700BFAE66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7289D36E2CA1EC7600BFAE66 /* DragGesture */;
+			targetProxy = 7289D38A2CA1EC7700BFAE66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7289D3912CA1EC7700BFAE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7289D3922CA1EC7700BFAE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7289D3942CA1EC7700BFAE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DragGesture/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahphillips.DragGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7289D3952CA1EC7700BFAE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DragGesture/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahphillips.DragGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7289D3972CA1EC7700BFAE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahphillips.DragGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragGesture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DragGesture";
+			};
+			name = Debug;
+		};
+		7289D3982CA1EC7700BFAE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahphillips.DragGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragGesture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DragGesture";
+			};
+			name = Release;
+		};
+		7289D39A2CA1EC7700BFAE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahphillips.DragGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DragGesture;
+			};
+			name = Debug;
+		};
+		7289D39B2CA1EC7700BFAE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahphillips.DragGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DragGesture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7289D36A2CA1EC7600BFAE66 /* Build configuration list for PBXProject "DragGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7289D3912CA1EC7700BFAE66 /* Debug */,
+				7289D3922CA1EC7700BFAE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7289D3932CA1EC7700BFAE66 /* Build configuration list for PBXNativeTarget "DragGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7289D3942CA1EC7700BFAE66 /* Debug */,
+				7289D3952CA1EC7700BFAE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7289D3962CA1EC7700BFAE66 /* Build configuration list for PBXNativeTarget "DragGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7289D3972CA1EC7700BFAE66 /* Debug */,
+				7289D3982CA1EC7700BFAE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7289D3992CA1EC7700BFAE66 /* Build configuration list for PBXNativeTarget "DragGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7289D39A2CA1EC7700BFAE66 /* Debug */,
+				7289D39B2CA1EC7700BFAE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7289D3672CA1EC7600BFAE66 /* Project object */;
+}
